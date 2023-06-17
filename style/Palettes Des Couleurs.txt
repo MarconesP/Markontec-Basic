@@ -1,0 +1,37 @@
+
+Rajouter à : gitingnore
+
+Certainement ! Voici quatre combinaisons de couleurs utilisant les couleurs de la palette précédente pour différents éléments de conception sur votre site web de développeur web freelancer :
+
+Combinaison 1:
+
+Titre: Vert foncé (#006400)
+Paragraphe: Gris foncé (#333333)
+Arrière-plan: Blanc (#FFFFFF)
+Bouton: Vert vif (#00FF00)
+En-tête: Vert menthe (#00BFFF)
+Pied de page: Gris clair (#CCCCCC)
+Combinaison 2:
+
+Titre: Vert olive (#556B2F)
+Paragraphe: Gris foncé (#333333)
+Arrière-plan: Blanc (#FFFFFF)
+Bouton: Vert foncé (#006400)
+En-tête: Vert menthe (#00BFFF)
+Pied de page: Gris clair (#CCCCCC)
+Combinaison 3:
+
+Titre: Vert foncé (#006400)
+Paragraphe: Gris clair (#CCCCCC)
+Arrière-plan: Vert menthe (#00BFFF)
+Bouton: Vert vif (#00FF00)
+En-tête: Blanc (#FFFFFF)
+Pied de page: Gris foncé (#333333)
+Combinaison 4:
+
+Titre: Vert vif (#00FF00)
+Paragraphe: Gris foncé (#333333)
+Arrière-plan: Blanc (#FFFFFF)
+Bouton: Orange (#FFA500)
+En-tête: Bleu clair (#87CEEB)
+Pied de page: Jaune pâle (#FFFF99)

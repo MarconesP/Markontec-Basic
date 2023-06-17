@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/ico" href="/icons/faviconMarkontec.ico">
+    <link rel="icon" type="image/ico" href="/icons/faviconMarkontec.ico" />
     <a href="/pages/index.html"></a>
     <a href="/pages/blog.html"></a>
     <a href="/pages/contact.html"></a>
@@ -20,32 +20,79 @@
 
 <body>
     <header>
-        <a href="/pages/index.html"> <img src="/img/LogoMarkontec.png" alt="Logo Markontec"></a>
+        <a href="/pages/index.html">
+            <img src="/img/LogoMarkontec.png" alt="Logo Markontec" /></a>
         <h1>Markontec</h1>
         <p>Develppeur Web Freelancer</p>
         <nav class="menu">
             <ul>
                 <li><a href="/pages/index.html">Accueil</a></li>
-                <li><a href="/pages/sevices.html">Services</a>
-
+                <li>
+                    <a href="/pages/sevices.html">Services</a>
                     <ul>
                         <li><a href="/pages/devisForjeta.html">Devis Forjeta</a></li>
-                        <li><a href="/pages/devisPersonalise.html">Devis Personnalisé</a> </li>
+                        <li>
+                            <a href="/pages/devisPersonalise.html">Devis Personnalisé</a>
+                        </li>
                     </ul>
                 </li>
                 <li><a href="/pages/blog.html">Blog</a></li>
                 <li><a href="/pages/contact.html">Contact</a></li>
                 <li><a href="/pages/quiJeSuis.html">Qui Je Suis</a></li>
             </ul>
-            <a href="/pages/devisForjeta.html">
-                <button class="free-quote">Devis Forjeta</button></a>
-            <a href="/pages/devisPersonalise.html">
-                <button class="personlized-quote">Devis Personnalisé</button></a>
+            <a href="" class="login-button">Conexion</a>
+            <a href="" class="signup-button">Création de Compte</a>
         </nav>
     </header>
     <section>
         <h1>Blog</h1>
-    </section>
-</body>
+        <form>
+            <label for="search">Recherche :</label>
+            <input type="text" id="search" name="search" placeholder="Entrez votre recherche ici">
+            <button type="submit">Rechercher</button>
+        </form>
 
+    </section>
+    <footer>
+        <div id="btn-return-up">
+        <a href="#top"><button id="return-up"> Retour en haut </button></a>
+        </div>
+        <div id="logo-description">
+        <img src="/img/LogoMarkontec.png" alt="Logo Markontec">
+        <h1>Markontec</h1>
+        <p>REIS | Develppeur Web Freelancer</p>
+      </div>
+      <div id="grouping">
+          <div class="subgroup">
+            <p>Services</p>
+            <span>Contructions</span>
+            <span>Design</span>
+            <span></span>
+          </div>
+          <div class="subgroup">
+            <p>Réseaux</p>
+            <span>GitHub</span>
+            <span>Linkedin</span>
+            <span>Youtub</span>
+            <span>Instagram</span>
+            <span>Facebook</span>
+    
+          </div>
+          <div class="subgroup">
+            <p>Legaité</p>
+            <span>Terms</span>
+            <span>Privacité</span>
+            <span>Cookies</span>
+            <span>Contact</span>
+          </div>
+      </div>
+      <div class="social-media-icon">
+        <img src="/icons/Gitthub-icon.png" alt="Icône GitHub">
+        <img src="/icons/Linkedin-icon.png" alt="Icône Linkedin">
+        <img src="/icons/Youtube-icon.png" alt="Icône Youtub">
+        <img src="/icons/Instagram-icon.png" alt="Icône Instagram">
+        <img src="/icons/Facebook-icon.png" alt="Icône Facebook">
+      </div>
+      </footer>
+</body>
 </html>
