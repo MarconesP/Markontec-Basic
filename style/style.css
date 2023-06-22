@@ -1,6 +1,42 @@
+* {
+  text-decoration: none;
+}
+
 body {
-    background-image: url(/img/Background\ pattern.png); 
+  background-image: url(/img/Background\ pattern.png);
 }
 header {
-    width: 1440px;
+  width: 1440px;
+  height: 120px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  flex-direction: row;
+}
+.nav-logo {
+  width: 15%;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+.nav-btn {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+.ul-services {
+  display: none;
 }
