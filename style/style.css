@@ -16,12 +16,13 @@ button {
 .personlized-quote {
   background: #40AD5D; 
 }
-
-
+.container {
+  box-shadow: -10px 0 5px -5px rgba(0, 0, 0, 0.2), 10px 0 5px -5px rgba(0, 0, 0, 0.2);
+}
 body {
   background-image: url(/img/Background\ pattern.png);
   background-size:contain;
-  width: 1300px;
+  width: 1227px;
   margin: 0 auto;
 }
 .container {
@@ -101,12 +102,22 @@ li {
 }
 .presentation {
   display: flex;
+  align-items:end;
+  height: 650px;
 }
 #texts {
   width: 43.5%;
+  display:absolute
 }
 #texts h1 {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
+  color:rgba(0, 0, 0, 0.73);
+  margin-top: 20px;
+  padding-top: 0;
+}
+#texts p {
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
 #images {
  width: 56.5%;
