@@ -2,61 +2,113 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
+button {
+  display: absolute;
+  align-items: center;
+  padding: 13px 20px;
+  border-radius: 30px;
+  border: none;
+  color: aliceblue;
+}
+.free-quote {
+  background:#ff6e01; 
+}
+.personlized-quote {
+  background: #40AD5D; 
+}
+
 
 body {
   background-image: url(/img/Background\ pattern.png);
   background-size:contain;
-  width: 1400px;
-  justify-content: center;
-  margin: auto;
+  width: 1300px;
+  margin: 0 auto;
+}
+.container {
+  padding-left:  40px;
+  padding-right: 40px;
 }
 header {
-  width: 1440px;
-  height: 150px;
-  margin: 0;
+  height: 100px;
 }
 nav {
+  height: 100px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: row;
 }
 .nav-logo {
-  width: 15%;
-  font-family: "Source Code Pro", monospace;
-  padding-top: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: flex-end;
+  width: 10.5%;
+  height: 80px;
+  font-family: "Source Code Pro", monospace;
+
 }
 .nav-logo img {
   width: 60px;
   height: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-nav h1 {
+.nav-logo h1 {
   color: #ff6e01;
   margin: 0;
+  padding: 0;
+}
+
+.logo {
+ padding: 0;
+ margin: 0;
+}
+.markontec {
+  margin: -10px;
+  padding: 0;
+  
 }
 .nav-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  width: 60%;
+  width: 57.5%;
+  margin: auto;
 }
-.nav-btn {
-  width: 25%;
-  display: flex;
-  justify-content: space-between;
+.nav-menu a {
+  color: #ff6e01;
 }
 ul {
   list-style: none;
   display: flex;
   align-items: center;
-  flex-direction: row;
+  justify-content: space-around;
+  
+}
+li {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  width: 50%;
+}
+.nav-btn {
+  width: 32%;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction: row-reverse;
+  margin-right: 0;
 }
 .ul-services {
   display: none;
 }
+.presentation {
+  display: flex;
+}
+#texts {
+  width: 43.5%;
+}
+#texts h1 {
+  font-size: 2.5rem;
+}
+#images {
+ width: 56.5%;
+}
+

@@ -35,3 +35,6 @@ Arrière-plan: Blanc (#FFFFFF)
 Bouton: Orange (#FFA500)
 En-tête: Bleu clair (#87CEEB)
 Pied de page: Jaune pâle (#FFFF99)
+
+Combinaison final
+vert : color: aliceblue; 
