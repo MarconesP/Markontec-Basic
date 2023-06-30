@@ -2,6 +2,10 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
+hr {
+  height: 1px;
+  background-color: #40AD5D;
+}
 button {
   display: absolute;
   align-items: center;
@@ -22,12 +26,12 @@ button {
 body {
   background-image: url(/img/Background\ pattern.png);
   background-size:contain;
-  width: 1227px;
+  width: 1440px;
   margin: 0 auto;
 }
 .container {
-  padding-left:  40px;
-  padding-right: 40px;
+  padding-left:  0;
+  padding-right: 0;
 }
 header {
   height: 100px;
@@ -106,12 +110,12 @@ li {
   height: 650px;
 }
 #texts {
-  width: 43.5%;
-  display:absolute
+  width: 35%;
+  display:absolute;
+  margin-left: 40px;
 }
 #texts h1 {
   font-size: 2.7rem;
-  color:rgba(0, 0, 0, 0.73);
   margin-top: 20px;
   padding-top: 0;
 }
@@ -120,6 +124,51 @@ li {
   margin-bottom: 0;
 }
 #images {
- width: 56.5%;
+  margin-left: 100px;
+}
+#images img {
+ width: 800px;
+ height: 600px;
+}
+.tools-image {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+.tools-intro {
+  display: block;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.tools-intro h2 {
+  color: #ff6e01
+}
+.tools-descriptions {
+  width: 50%;
+}
+.tools-image {
+  width: 50%;
+}
+.wordpress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wordpress p,
+.seo p {
+  margin-left: 40px;
+}
+#wordpress-img, #seo-img {
+  margin-left: 44px;
+}
+.react-js {
+  display: flex;
+}
+.seo {
+  display: flex;
+}
+.figma {
+  display: flex;
 }
 
