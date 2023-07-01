@@ -14,6 +14,12 @@ button {
   border: none;
   color: aliceblue;
 }
+.btn-learn-more {
+  background:none;
+  color: #ff6e01;
+  font-size: 1rem;
+  font-weight: bold;
+}
 .free-quote {
   background:#ff6e01; 
 }
@@ -21,41 +27,40 @@ button {
   background: #40AD5D; 
 }
 .container {
-  box-shadow: -10px 0 5px -5px rgba(0, 0, 0, 0.2), 10px 0 5px -5px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.018);
 }
 body {
-  background-image: url(/img/Background\ pattern.png);
   background-size:contain;
-  width: 1440px;
+  width: 1200px;
   margin: 0 auto;
+  box-shadow: -10px 0 5px -5px rgba(0, 0, 0, 0.2), 10px 0 5px -5px rgba(0, 0, 0, 0.2);
 }
 .container {
   padding-left:  0;
   padding-right: 0;
 }
-header {
-  height: 100px;
-}
+
 nav {
-  height: 100px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  background: black;
 }
 .nav-logo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  width: 10.5%;
-  height: 80px;
+  width: 14%;
+  height: 60px;
   font-family: "Source Code Pro", monospace;
-
+  margin-top: 0;
 }
 .nav-logo img {
-  width: 60px;
-  height: 50px;
+  width: 50px;
+  height: 40px;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -64,15 +69,13 @@ nav {
   margin: 0;
   padding: 0;
 }
-
 .logo {
  padding: 0;
- margin: 0;
+ margin-bottom: -11px;
 }
 .markontec {
-  margin: -10px;
-  padding: 0;
-  
+  margin-bottom: -10px;
+  padding: 0; 
 }
 .nav-menu {
   width: 57.5%;
@@ -85,8 +88,7 @@ ul {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  
+  justify-content: space-around; 
 }
 li {
   display: flex;
@@ -97,7 +99,7 @@ li {
   width: 32%;
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content:space-evenly;
   flex-direction: row-reverse;
   margin-right: 0;
 }
@@ -105,35 +107,48 @@ li {
   display: none;
 }
 .presentation {
+  background-image: url(/img/Background\ pattern.png);
+  background-position: center;
   display: flex;
-  align-items:end;
   height: 650px;
+  padding-top: 70px;
 }
 #texts {
-  width: 35%;
-  display:absolute;
-  margin-left: 40px;
+  width: 45%;
+  margin-left: 20px;
 }
 #texts h1 {
   font-size: 2.7rem;
-  margin-top: 20px;
   padding-top: 0;
+  margin-top: 0;
+  line-height: 3rem;
 }
 #texts p {
   font-size: 1.5rem;
-  margin-bottom: 0;
+  margin-top: 107px;
+  line-height: 1.5rem;
 }
 #images {
-  margin-left: 100px;
+  position: relative;
+  margin-left: 0;
 }
-#images img {
- width: 800px;
- height: 600px;
+#iphone {
+  width: 215px;
+  position: absolute;
+  top: 179px;
+  left: 40px;
+}
+.tools-icons {
+  display: block;
+  margin: 0 auto;
 }
 .tools-image {
   width: 50%;
   padding: 0;
   margin: 0;
+}
+.tools-descriptions {
+  padding-left: 22px;
 }
 .tools-intro {
   display: block;
@@ -147,20 +162,43 @@ li {
 .tools-descriptions {
   width: 50%;
 }
+.tools {
+  margin-left: 0;
+}
 .tools-image {
   width: 50%;
+}
+.tools h2 {
+  text-align: center;
 }
 .wordpress {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.wordpress, .react-js, 
+.seo, .figma  {
+  margin-top: 60px;
+}
+.wordpress .tools-image, 
+.seo .tools-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 .wordpress p,
 .seo p {
-  margin-left: 40px;
+  margin-left: 20px;
 }
-#wordpress-img, #seo-img {
-  margin-left: 44px;
+.wordpress .tools-icons,
+.react-js .tools-icons {
+  width: 54px;
+}
+.tools-image img{
+  width: 580px;
+}
+.checkout-description span {
+  display: block;
 }
 .react-js {
   display: flex;
@@ -170,5 +208,12 @@ li {
 }
 .figma {
   display: flex;
+}
+.btn-devis {
+  text-align: center;
+}
+footer {
+  background: black;
+  color: bisque;
 }
 
