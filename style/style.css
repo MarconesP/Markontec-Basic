@@ -2,6 +2,12 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
+body {
+  background-size:contain;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: -10px 0 5px -5px rgba(0, 0, 0, 0.2), 10px 0 5px -5px rgba(0, 0, 0, 0.2);
+}
 hr {
   height: 1px;
   background-color: #40AD5D;
@@ -14,11 +20,23 @@ button {
   border: none;
   color: aliceblue;
 }
+span {
+  display: flex;
+  align-items: flex-start;
+  justify-content:flex-start;
+  margin-bottom: 20px;
+}
+p {
+  text-indent: 1em;
+}
 .btn-learn-more {
   background:none;
   color: #ff6e01;
   font-size: 1rem;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
+
 }
 .free-quote {
   background:#ff6e01; 
@@ -28,14 +46,7 @@ button {
 }
 .container {
   background: rgba(0, 0, 0, 0.018);
-}
-body {
-  background-size:contain;
-  width: 1200px;
-  margin: 0 auto;
-  box-shadow: -10px 0 5px -5px rgba(0, 0, 0, 0.2), 10px 0 5px -5px rgba(0, 0, 0, 0.2);
-}
-.container {
+  color: rgba(0, 0, 0, 0.887);
   padding-left:  0;
   padding-right: 0;
 }
@@ -46,7 +57,7 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background: black;
+  background: rgba(0, 0, 0, 0.112);
 }
 .nav-logo {
   display: flex;
@@ -80,6 +91,7 @@ nav {
 .nav-menu {
   width: 57.5%;
   margin: auto;
+  font-weight: bold;
 }
 .nav-menu a {
   color: #ff6e01;
@@ -119,14 +131,16 @@ li {
 }
 #texts h1 {
   font-size: 2.7rem;
+  font-weight: bold;
   padding-top: 0;
   margin-top: 0;
   line-height: 3rem;
 }
 #texts p {
   font-size: 1.5rem;
+  font-weight: bold;
   margin-top: 107px;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 }
 #images {
   position: relative;
@@ -137,6 +151,19 @@ li {
   position: absolute;
   top: 179px;
   left: 40px;
+}
+.tools-section h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.112);
+  color: #ff6e01;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tools .tools-descriptions p {
+  margin-left: 0;
+  margin-right: 22px;
 }
 .tools-icons {
   display: block;
@@ -150,14 +177,14 @@ li {
 .tools-descriptions {
   padding-left: 22px;
 }
+.tools-descriptions p {
+  margin-left: 0;
+}
 .tools-intro {
   display: block;
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
-}
-.tools-intro h2 {
-  color: #ff6e01
 }
 .tools-descriptions {
   width: 50%;
@@ -197,9 +224,6 @@ li {
 .tools-image img{
   width: 580px;
 }
-.checkout-description span {
-  display: block;
-}
 .react-js {
   display: flex;
 }
@@ -212,6 +236,67 @@ li {
 .btn-devis {
   text-align: center;
 }
+.btns-end-presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.112);
+    padding: 9px;
+    margin-top: 55px;
+  }
+  .btns-end-presentation .btn-devis {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:550px;
+  }
+  .why-react {
+  text-align: center;
+  }
+  .why-react .tools-icons {
+    width: 54px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .convincing {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 22px;
+  }
+  .the-why {
+    flex: 1;
+    padding-right: 22px;
+  }
+  .the-why img, h3 {
+    text-align: center;
+    margin: auto;
+  }
+  .the-why img {
+    display: flex;
+    margin:auto;
+  }
+  .faq {
+    width: 60%;
+    margin: auto;
+  }
+  .faq-presentation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.112);
+  color: #ff6e01;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+   .questions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .questions button {
+    background: none;
+   }
 footer {
   background: black;
   color: bisque;
