@@ -2,16 +2,19 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
+
 body {
-  background-size:contain;
+  background-size: contain;
   width: 1200px;
   margin: 0 auto;
   box-shadow: -10px 0 5px -5px rgba(0, 0, 0, 0.2), 10px 0 5px -5px rgba(0, 0, 0, 0.2);
 }
+
 hr {
   height: 1px;
   background-color: #40AD5D;
 }
+
 button {
   display: absolute;
   align-items: center;
@@ -20,17 +23,20 @@ button {
   border: none;
   color: aliceblue;
 }
+
 span {
   display: flex;
   align-items: flex-start;
-  justify-content:flex-start;
+  justify-content: flex-start;
   margin-bottom: 20px;
 }
+
 p {
   text-indent: 1em;
 }
+
 .btn-learn-more {
-  background:none;
+  background: none;
   color: #ff6e01;
   font-size: 1rem;
   font-weight: bold;
@@ -38,16 +44,19 @@ p {
   padding: 0;
 
 }
+
 .free-quote {
-  background:#ff6e01; 
+  background: #ff6e01;
 }
+
 .personlized-quote {
-  background: #40AD5D; 
+  background: #40AD5D;
 }
+
 .container {
   background: rgba(0, 0, 0, 0.018);
   color: rgba(0, 0, 0, 0.887);
-  padding-left:  0;
+  padding-left: 0;
   padding-right: 0;
 }
 
@@ -59,6 +68,7 @@ nav {
   flex-direction: row;
   background: rgba(0, 0, 0, 0.112);
 }
+
 .nav-logo {
   display: flex;
   flex-direction: column;
@@ -69,55 +79,66 @@ nav {
   font-family: "Source Code Pro", monospace;
   margin-top: 0;
 }
+
 .nav-logo img {
   width: 50px;
   height: 40px;
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
 .nav-logo h1 {
   color: #ff6e01;
   margin: 0;
   padding: 0;
 }
+
 .logo {
- padding: 0;
- margin-bottom: -11px;
+  padding: 0;
+  margin-bottom: -11px;
 }
+
 .markontec {
   margin-bottom: -10px;
-  padding: 0; 
+  padding: 0;
 }
+
 .nav-menu {
   width: 57.5%;
   margin: auto;
   font-weight: bold;
 }
+
 .nav-menu a {
   color: #ff6e01;
 }
+
 ul {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-around; 
+  justify-content: space-around;
 }
+
 li {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .nav-btn {
   width: 32%;
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   flex-direction: row-reverse;
   margin-right: 0;
 }
+
 .ul-services {
   display: none;
 }
+
 .presentation {
   background-image: url(/img/Background\ pattern.png);
   background-position: center;
@@ -125,10 +146,12 @@ li {
   height: 650px;
   padding-top: 70px;
 }
+
 #texts {
   width: 45%;
   margin-left: 20px;
 }
+
 #texts h1 {
   font-size: 2.7rem;
   font-weight: bold;
@@ -136,22 +159,26 @@ li {
   margin-top: 0;
   line-height: 3rem;
 }
+
 #texts p {
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 107px;
   line-height: 1.8rem;
 }
+
 #images {
   position: relative;
   margin-left: 0;
 }
+
 #iphone {
   width: 215px;
   position: absolute;
   top: 179px;
   left: 40px;
 }
+
 .tools-section h2 {
   display: flex;
   align-items: center;
@@ -161,126 +188,163 @@ li {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 .tools .tools-descriptions p {
   margin-left: 0;
   margin-right: 22px;
 }
+
 .tools-icons {
   display: block;
   margin: 0 auto;
 }
+
 .tools-image {
   width: 50%;
   padding: 0;
   margin: 0;
 }
+
 .tools-descriptions {
   padding-left: 22px;
 }
+
 .tools-descriptions p {
   margin-left: 0;
 }
+
 .tools-intro {
   display: block;
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
 }
+
 .tools-descriptions {
   width: 50%;
 }
+
 .tools {
   margin-left: 0;
 }
+
 .tools-image {
   width: 50%;
 }
+
 .tools h2 {
   text-align: center;
 }
+
 .wordpress {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.wordpress, .react-js, 
-.seo, .figma  {
+
+.wordpress,
+.react-js,
+.seo,
+.figma {
   margin-top: 60px;
 }
-.wordpress .tools-image, 
+
+.wordpress .tools-image,
 .seo .tools-image {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
+
 .wordpress p,
 .seo p {
   margin-left: 20px;
 }
+
 .wordpress .tools-icons,
 .react-js .tools-icons {
   width: 54px;
 }
-.tools-image img{
+
+.tools-image img {
   width: 580px;
 }
+
 .react-js {
   display: flex;
 }
+
 .seo {
   display: flex;
 }
+
 .figma {
   display: flex;
 }
+
 .btn-devis {
   text-align: center;
 }
+
 .btns-end-presentation {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.112);
-    padding: 9px;
-    margin-top: 55px;
-  }
-  .btns-end-presentation .btn-devis {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width:550px;
-  }
-  .why-react {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.112);
+  padding: 9px;
+  margin-top: 55px;
+}
+
+.btns-end-presentation .btn-devis {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 550px;
+}
+
+.why-react {
   text-align: center;
-  }
-  .why-react .tools-icons {
-    width: 54px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  .convincing {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-left: 22px;
-  }
-  .the-why {
-    flex: 1;
-    padding-right: 22px;
-  }
-  .the-why img, h3 {
-    text-align: center;
-    margin: auto;
-  }
-  .the-why img {
-    display: flex;
-    margin:auto;
-  }
-  .faq {
-    width: 60%;
-    margin: auto;
-  }
-  .faq-presentation {
+}
+
+.why-react .tools-icons {
+  width: 54px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.convincing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 22px;
+}
+
+.the-why {
+  flex: 1;
+  padding-right: 22px;
+}
+
+.the-why img,
+h3 {
+  text-align: center;
+  margin: auto;
+}
+
+.the-why img {
+  display: flex;
+  margin: auto;
+}
+
+.faq {
+  width: 60%;
+  margin: auto;
+}
+
+.faq-end {
+  text-align: center;
+}
+
+.faq-presentation h2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -288,17 +352,38 @@ li {
   color: #ff6e01;
   padding-top: 5px;
   padding-bottom: 5px;
-  }
-   .questions {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   }
-   .questions button {
-    background: none;
-   }
+}
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questions button {
+  background: none;
+}
+
+#btn-return-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#btn-return-up button { 
+  height: 45px;
+  color: #ff6e01;
+  font-size:larger;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  background: rgba(0, 0, 0, 0.112);
+  text-align: center;
+  font-weight: bold;
+}
+
 footer {
   background: black;
   color: bisque;
 }
-
