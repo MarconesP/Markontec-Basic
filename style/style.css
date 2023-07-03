@@ -19,7 +19,7 @@ button {
   padding: 13px 20px;
   border-radius: 30px;
   border: none;
-  color: aliceblue;
+  color: black;
   font-size: 0.9rem;
 }
 
@@ -51,7 +51,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.112);
+  background: rgba(0, 0, 0, 0.916);
   padding: 9px;
   margin-top: 55px;
 }
@@ -116,7 +116,7 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background: rgba(0, 0, 0, 0.112);
+  background: rgba(0, 0, 0, 0.92);
 }
 
 .nav-logo {
@@ -160,7 +160,7 @@ nav {
 }
 
 .nav-menu a {
-  color: #ff6e01;
+  color:#40AD5D;
 }
 
 ul {
@@ -233,7 +233,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.112);
+  background: rgba(0, 0, 0, 0.896);
   color: #ff6e01;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -378,7 +378,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.112);
+  background: rgba(0, 0, 0, 0.862);
   color: #ff6e01;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -393,13 +393,33 @@ h3 {
 footer {
   background: black;
   color: bisque;
+  height: 500px;
+  margin-top: 0;
 }
 
-#grouping {
-  display: block;
-  flex: 1;
-  background: #40AD5D;
+.grouping {
+  display: flex;
+  padding-top: 25px;
+  margin-right: 25px;
+}
+.grouping p {
+  text-indent: 0;
+  color: #40AD5D;
+}
+.logo-description {
+  width: 350px;
+  padding: 22px;
+  padding-left: 80px;
+}
+.logo-description p {
+  text-indent: 0;
 }
 .subgroup {
-  flex: 1;
+  padding-left: 140px;
+  width:180px;
+}
+.social-media-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
