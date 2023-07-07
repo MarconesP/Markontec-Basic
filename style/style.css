@@ -22,6 +22,11 @@ button {
   color: black;
   font-size: 0.9rem;
 }
+button:hover{
+  transition: 0.3s;
+  margin-bottom: 4px;
+  color: white;
+}
 
 .btn-learn-more {
   background: none;
@@ -67,7 +72,7 @@ button {
   width: 210px;
   border-radius: 30px;
   border: none;
-  color: aliceblue;
+  color:black
   font-size: 0.9rem;
   font-weight: bold;
   letter-spacing: 1px;
@@ -161,6 +166,11 @@ nav {
 
 .nav-menu a {
   color:#40AD5D;
+}
+.nav-menu a:hover {
+  color: #ff6e01;
+  transition: 0.3s;
+  margin-bottom: 4px;
 }
 
 ul {
