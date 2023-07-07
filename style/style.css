@@ -36,6 +36,14 @@ button:hover{
   margin: 0;
   padding: 0;
 }
+.btn-learn-more:hover {
+  color: white;
+  margin-left: 4px;
+  transition: 0.3s;
+  background:#ff6e01;
+  padding-left: 3px;
+  padding-right: 3px;
+}
 
 .btn-free-quotete {
   background: #ff6e01;
@@ -72,7 +80,7 @@ button:hover{
   width: 210px;
   border-radius: 30px;
   border: none;
-  color:black
+  color:black;
   font-size: 0.9rem;
   font-weight: bold;
   letter-spacing: 1px;
@@ -168,9 +176,9 @@ nav {
   color:#40AD5D;
 }
 .nav-menu a:hover {
-  color: #ff6e01;
+  color: white;
   transition: 0.3s;
-  margin-bottom: 4px;
+  margin-bottom: 7px;
 }
 
 ul {
@@ -432,4 +440,23 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 70px;
+}
+.img-footer:hover {
+  transition: 0.3s;
+  padding-left:42px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-image: url(/icons/mktransparent_eWc_icon.png)
+}
+span:hover {
+  transition: 0.3s;
+  margin-left: 7px;
+  color: #40AD5D;
+}
+.social-media-icon div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
 }
