@@ -449,7 +449,7 @@ footer {
   background-position-x: left;
   background-image: url(/icons/mktransparent_eWc_icon.png)
 }
-span:hover {
+.subgroup span:hover {
   transition: 0.3s;
   margin-left: 7px;
   color: #40AD5D;

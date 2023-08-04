@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/ico" href="/icons/faviconMarkontec.ico">
+    <link rel="stylesheet" href="/style/contact.css"><link
+    href="https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:ital,wght@1,500;1,600&display=swap"
+    rel="stylesheet" />
     <a href="/pages/index.html"></a>
     <a href="/pages/blog.html"></a>
     <a href="/pages/contact.html"></a>
@@ -19,28 +22,48 @@
 </head>
 
 <body>
-    <header>
-        <a href="/pages/index.html"> <img src="/img/LogoMarkontec.png" alt="Logo Markontec"></a>
-        <h1>Markontec</h1>
-        <p>Develppeur Web Freelancer</p>
-        <nav class="menu">
-            <ul>
-                <li><a href="/pages/index.html">Accueil</a></li>
-                <li><a href="/pages/sevices.html">Services</a>
-                    <ul>
-                        <li><a href=""></a>Constuction</li>
-                        <li><a href=""></a>Design</li>
-                        <li><a href=""></a>Maintenance</li>
-                        <li><a href="/pages/devisAproximatif.html">devisAproximatif</a></li>
-                        <li><a href="/pages/devisPersonalise.html">Devis Personnalisé</a> </li>
-                    </ul>
-                </li>
-                <li><a href="/pages/blog.html">Blog</a></li>
-                <li><a href="/pages/contact.html">Contact</a></li>
-                <li><a href="/pages/quiJeSuis.html">Qui Je Suis</a></li>
+  <header>
+    <nav>
+      <div class="nav-logo">
+        <div class="logo">
+          <a href="/pages/index.html">
+            <img src="/img/LogoMarkontec.png" alt="Logo Markontec" /></a>
+        </div>
+        <div class="markontec">
+          <h1>Markontec</h1>
+        </div>
+      </div>
+      <div class="nav-menu">
+        <ul>
+          <li><a href="/pages/index.html">Accueil</a></li>
+          <li>
+            <a href="/pages/sevices.html">Services</a>
+            <ul class="ul-services">
+              <li><a href=""></a>Constuction</li>
+              <li><a href=""></a>Design</li>
+              <li><a href=""></a>Maintenance</li>
+              <li>
+                <a href="/pages/devisAproximatif.html">Devis Aproximative</a>
+              </li>
+              <li>
+                <a href="/pages/devisPersonalise.html">Devis Personnalisé</a>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </li>
+          <li><a href="/pages/blog.html">Blog</a></li>
+          <li><a href="/pages/contact.html">Contact</a></li>
+          <li><a href="/pages/quiJeSuis.html">Qui Je Suis</a></li>
+        </ul>
+      </div>
+      <div class="nav-btn">
+        <a href="/pages/devisAproximatif.html">
+          <button class="btn-free-quotete">Devis Aproximative</button></a>
+        <a href="/pages/devisPersonalise.html">
+          <button class="btn-personalized-quote">Devis Personnalisé</button></a>
+      </div>
+    </nav>
+  </header>
+
     <main>
         <h1>Contact</h1>
         <form action="send-message" method="POST">
@@ -62,28 +85,28 @@
           <button>Envoyer</button>
         </form>
       </main>
-    <footer>
-
-        <div id="logo-description">
-        <img src="/img/LogoMarkontec.png" alt="Logo Markontec">
-        <h1>Markontec</h1>
-        <p>REIS | Develppeur Web Freelancer</p>
-      </div>
-      <div id="grouping">
+      <footer>
+        <div class="footer-div">
+        <div class="grouping">
+          <div class="logo-description">
+            <img src="/img/LogoMarkontec.png" alt="Logo Markontec" />
+            <h1>Markontec</h1>
+            <p>Develppeur Web Freelancer</p>
+            <p>Marquer votre présence <br> en ligne avec Markontec !</p>
+          </div>
           <div class="subgroup">
             <p>Services</p>
-            <span>Contructions</span>
             <span>Design</span>
-            <span></span>
+            <span>Creation</span>
+            <span>Maintenance</span>
           </div>
           <div class="subgroup">
             <p>Réseaux</p>
             <span>GitHub</span>
             <span>Linkedin</span>
-            <span>Youtub</span>
+            <span>YouTube</span>
             <span>Instagram</span>
             <span>Facebook</span>
-    
           </div>
           <div class="subgroup">
             <p>Legaité</p>
@@ -92,14 +115,26 @@
             <span>Cookies</span>
             <span>Contact</span>
           </div>
-      </div>
-      <div class="social-media-icon">
-        <img src="/icons/Gitthub-icon.png" alt="Icône GitHub">
-        <img src="/icons/Linkedin-icon.png" alt="Icône Linkedin">
-        <img src="/icons/Youtube-icon.png" alt="Icône Youtub">
-        <img src="/icons/Instagram-icon.png" alt="Icône Instagram">
-        <img src="/icons/Facebook-icon.png" alt="Icône Facebook">
+        </div>
+        <div class="social-media-icon">
+          <div>
+          <img class="img-footer" src="/icons/Gitthub-icon.png" alt="Icône GitHub" />
+        </div>
+        <div>
+          <img class="img-footer" src="/icons/Linkedin-icon.png" alt="Icône Linkedin" />
+        </div>
+        <div>
+          <img class="img-footer" src="/icons/Youtube-icon.png" alt="Icône Youtub" />
+        </div>
+        <div>
+          <img class="img-footer" src="/icons/Instagram-icon.png" alt="Icône Instagram" />
+        </div>
+        <div>
+          <img class="img-footer" src="/icons/Facebook-icon.png" alt="Icône Facebook" />
+        </div>
+        </div>
       </div>
       </footer>
-</body>
-</html>
+    </body>
+    
+    </html>
