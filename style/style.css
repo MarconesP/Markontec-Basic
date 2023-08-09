@@ -119,10 +119,6 @@ span {
   margin-bottom: 20px;
 }
 
-p {
-  text-indent: 1em;
-}
-
 nav {
   height: 70px;
   display: flex;
@@ -414,7 +410,6 @@ footer {
   height: 500px;
   margin-top: 0;
 }
-
 .grouping {
   display: flex;
   padding-top: 25px;
