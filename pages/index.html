@@ -22,6 +22,7 @@
   <a href="/pages/quiJeSuis.html"></a>
   <a href="/pages/question.html"></a>
   <a id="top"></a>
+  <script src="/JS/script.js" defer></script>
 </head>
 
 <body>
@@ -37,19 +38,18 @@
             <h1>Markontec</h1>
           </div>
         </div>
-        <div class="nav-menu">
+        <!--<div class="nav-menu">
           <ul>
             <li><a href="/pages/index.html">Accueil</a></li>
-            <li>
-              <a href="/pages/sevices.html">Services</a>
+              <li><a href="/pages/sevices.html">Services <span>&#9660;</span></a></li>
               <ul class="ul-services">
-                <li><a href=""></a>Constuction</li>
-                <li><a href=""></a>Design</li>
-                <li><a href=""></a>Maintenance</li>
-                <li>
+                <li class="sevices-sous-liste"><a href=""></a>Construction</li>
+                <li class="sevices-sous-liste"><a href=""></a>Design</li>
+                <li class="sevices-sous-liste"><a href=""></a>Maintenance</li>
+                <li class="sevices-sous-liste">
                   <a href="/pages/devisAproximatif.html">Devis Aproximative</a>
                 </li>
-                <li>
+                <li class="sevices-sous-liste">
                   <a href="/pages/devisPersonalise.html">Devis Personnalisé</a>
                 </li>
               </ul>
@@ -57,6 +57,23 @@
             <li><a href="/pages/blog.html">Blog</a></li>
             <li><a href="/pages/contact.html">Contact</a></li>
             <li><a href="/pages/quiJeSuis.html">Qui Je Suis</a></li>
+          </ul>
+        </div>-->
+        <div>
+          <ul  class="nav-menu"><!--liste-items-->
+            <li class="items">Accueil</li>
+            <li class="items" id="service">Services
+              <span id="icone-service">&#9660;</span>
+              <ul class="sous-list">
+                <li class="items-sous-list">Design</li>
+                <li class="items-sous-list">Construction</li>
+                <li class="items-sous-list">Maintenance</li>
+                <li class="items-sous-list">Devis Aproximative</li>
+              </ul> 
+            </li>          
+            <li class="items">Blog</li>
+            <li class="items">Contact</li>
+            <li class="items">Qui Je Suis</li>
           </ul>
         </div>
         <div class="nav-btn">
@@ -114,13 +131,13 @@
             </p>
 
             <div class="checkout-description">
-              <span>
+              <span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" />Conçu, aux sites web e blogs de toutes
                 tailles.</span>
-              <span>
+              <span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" />Peut
                 s'adapter aux besoins futurs de votre entreprise.</span>
-              <span>
+              <span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" />Responsive aux dispositive, ordinateur,
                 tablet
                 smartphone.</span>
@@ -146,15 +163,15 @@
               </a>
             </p>
             <div class="checkout-description">
-              <span>
+              <span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" />Permet aux moteurs de recherche de d'indexer
                 facilement votre
                 site ou blog.
               </span>
-              <span>
+              <span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" />Temps
                 de chargement plus rapides et une expérience utilisateur
-                agréable. </span><span>
+                agréable. </span><span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" /> Un
                 choix populaire pour le développement d'applications web
                 modernes et interactives.
@@ -177,16 +194,16 @@
               </a>
             </p>
             <div class="checkout-description">
-              <span>
+              <span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" />L'objectif principal est d'attirer un trafic
                 qualifié et
                 pertinent vers un site web.
               </span>
-              <span>
+              <span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" />Cibler les bons mots clés pour optimiser le
                 contenu du site.
               </span>
-              <span>
+              <span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" />Générer plus de visualisation de conversions
                 et de revenus.
               </span>
@@ -215,14 +232,14 @@
               </a>
             </p>
             <div class="checkout-description">
-              <span>
+              <span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" />Un
                 site bien conçu inspire confiance et encourage les visiteurs à
                 se convertir en clients.</span>
-              <span>
+              <span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" />
                 Une expérience utilisateur agréable.</span>
-              <span>
+              <span class="span-icone">
                 <img src="/icons/Check icon.png" alt="Icone de Checkout" />Un
                 design soigné renforce la crédibilité de votre entreprise.
               </span>
@@ -366,24 +383,24 @@
       </div>
       <div class="subgroup">
         <p>Services</p>
-        <span>Design</span>
-        <span>Creation</span>
-        <span>Maintenance</span>
+        <span class="span-icone">Design</span>
+        <span class="span-icone">Creation</span>
+        <span class="span-icone">Maintenance</span>
       </div>
       <div class="subgroup">
         <p>Réseaux</p>
-        <span>GitHub</span>
-        <span>Linkedin</span>
-        <span>YouTube</span>
-        <span>Instagram</span>
-        <span>Facebook</span>
+        <span class="span-icone">GitHub</span>
+        <span class="span-icone">Linkedin</span>
+        <span class="span-icone">YouTube</span>
+        <span class="span-icone">Instagram</span>
+        <span class="span-icone">Facebook</span>
       </div>
       <div class="subgroup">
         <p>Legaité</p>
-        <span>Terms</span>
-        <span>Privacité</span>
-        <span>Cookies</span>
-        <span>Contact</span>
+        <span class="span-icone">Terms</span>
+        <span class="span-icone">Privacité</span>
+        <span class="span-icone">Cookies</span>
+        <span class="span-icone">Contact</span>
       </div>
     </div>
     <div class="social-media-icon">
@@ -405,6 +422,7 @@
     </div>
   </div>
   </footer>
+  <script src="/s/script.js"></script>
 </body>
 
 </html>
