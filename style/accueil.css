@@ -208,9 +208,14 @@ nav div, ::before, ::after {
   
 }
  #service:hover .sous-list {
-  display: block;
-  transform: translateY(18.5px);
-  transition: transform 0.5s ease-out;
+  visibility: visible;
+  transform: translateY(18.2px);
+  transition: transform 0.5s ease-in-out;
+}
+#service:hover .items-sous-list {
+  height: 30px;
+  font-size: 14px;
+  transition: transform 0.7s ease-in-out, height 0.5s ease-in-out;
 }
 .items span {
   font-size: 14px;
@@ -224,16 +229,19 @@ nav div, ::before, ::after {
   
 }
 .sous-list {
-  display: one;
+  visibility: hidden;
   position:relative;
   width: 170px;
-  transform: translateY(-1180.5%);
   padding-left: 0;  
-  
+  transform: translateY(19px);
 }
 .items-sous-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  background: rgba(0, 0, 0, 0.83);
+  height: 1px;
+  background: rgba(0, 0, 0, 0.826);
   border-bottom: 0.5px solid  #40AD5D;
   color: #ff6e01;
 }
@@ -241,8 +249,8 @@ nav div, ::before, ::after {
   color: white;
   background: #40AD5D;
   transform: translateX(12px);
-  transition: transform 0.7s ease;
 }
+
 .logo {
   padding: 0;
   margin-bottom: -11px;
